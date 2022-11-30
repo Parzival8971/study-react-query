@@ -10,6 +10,7 @@ function App() {
     <QueryClinetProvider client={queryClient}>
       <div className='App'>
         <h1>Infinite SWAPI</h1>
+        <ReactQueryDevtools />
       </div>
     </QueryClinetProvider>
   );
