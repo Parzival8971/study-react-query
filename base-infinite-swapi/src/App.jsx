@@ -13,7 +13,7 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <div className='App'>
         <h1>Infinite SWAPI</h1>
-        <InfinitePeople />
+        {/* <InfinitePeople /> */}
         <InfiniteSpecies />
         <ReactQueryDevtools />
       </div>
